@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgb(180, 179, 179);
+}
+.head {
+  margin-top: 1rem;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(78, 48, 48);
+  width: 600px;
+  height: 500px;
+  box-shadow: 2px 4px 10px rgb(109, 105, 105);
+  border: 1px solid rgb(68, 31, 31);
+  border-radius: 20px;
+  padding: 20px;
+}
+.input {
+  padding: 10px 15px;
+  border: 2px solid rgba(24, 19, 19, 0.4);
+  font-size: 18px;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(58, 38, 38, 0.02);
+}
+label {
+  font-size: 18px;
+  letter-spacing: 1.4px;
+}
+.tableForm {
+  margin-top: 10px;
+}
+.btn {
+  background-color: rgb(63, 91, 148);
+  color: rgb(255, 161, 161);
+  padding: 10px 20px;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+input:invalid:focus {
+  border: 2px solid rgb(82, 255, 134);
+}
+
+.table {
+  border: 2px solid rgb(61, 60, 60);
+  margin: 40px auto;
+}
+
+.td,
+.th {
+  padding: 10px;
+  text-align: center;
+}
+
+.subHead {
+  text-align: center;
+  margin-top: 2rem;
+}
